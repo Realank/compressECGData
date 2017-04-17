@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C2963661EA4634C006823FE /* compressECGData.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C2963641EA4634C006823FE /* compressECGData.c */; };
 		8CA1E34D1EA098C8008F0F81 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CA1E34C1EA098C8008F0F81 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C2963641EA4634C006823FE /* compressECGData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compressECGData.c; sourceTree = "<group>"; };
+		8C2963651EA4634C006823FE /* compressECGData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compressECGData.h; sourceTree = "<group>"; };
 		8CA1E3491EA098C8008F0F81 /* compressECGData */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = compressECGData; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA1E34C1EA098C8008F0F81 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				8CA1E34C1EA098C8008F0F81 /* main.c */,
+				8C2963641EA4634C006823FE /* compressECGData.c */,
+				8C2963651EA4634C006823FE /* compressECGData.h */,
 			);
 			path = compressECGData;
 			sourceTree = "<group>";
@@ -121,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CA1E34D1EA098C8008F0F81 /* main.c in Sources */,
+				8C2963661EA4634C006823FE /* compressECGData.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +257,7 @@
 				8CA1E3521EA098C8008F0F81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
