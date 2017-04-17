@@ -11,11 +11,13 @@ This project is a C language code to compress/decompress HEX raw data
 ##### Performance:
 
 -iPhone 6s:
+
 compress time:0.438489
 
 decompress time:0.565011
 
 -iPad Mini4:
+
 compress time:0.413948
 
 decompress time:0.541826
