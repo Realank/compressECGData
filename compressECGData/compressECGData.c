@@ -9,7 +9,6 @@
 #include "compressECGData.h"
 
 #define BufferSize 1024*16
-
 uint8_t queue = 0;
 int position = 0;
 
@@ -60,7 +59,7 @@ int compressFile4bit(const char* readFilePath,const char* writeFilePath){
     size_t fileLength = 0;
     size_t onceReadLength = 0;
     uint8_t* readBuffer = malloc(sizeof(uint8_t) * BufferSize);
-    uint8_t* writeBuffer = malloc(sizeof(uint8_t) * BufferSize);
+    uint8_t* writeBuffer = malloc(sizeof(uint8_t) * BufferSize*2);
     if (readBuffer == NULL || writeBuffer == NULL) {
         printf("Memmory Alloc Fail\n");
         ret = 0;
@@ -196,7 +195,7 @@ int decompressFile4bit(const char* readFilePath,const char* writeFilePath){
     
     onceReadLength = fread(readBuffer, sizeof(uint8_t), 6, readFp);
     if (onceReadLength != 6) {
-        printf("Write to file failed\n");
+        printf("Read failed\n");
         ret = 0;
         goto FREEMEM;
     }

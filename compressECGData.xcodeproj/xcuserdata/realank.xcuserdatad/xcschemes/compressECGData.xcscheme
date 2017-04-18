@@ -63,15 +63,15 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "/Users/realank/Desktop/hejiasu.dat"
+            argument = "/Users/realank/Desktop/data2.dat"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "/Users/realank/Desktop/hejiasu.rk4"
+            argument = "/Users/realank/Desktop/data2.rk4"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "/Users/realank/Desktop/hejiasu2.dat"
+            argument = "/Users/realank/Desktop/data2.dat2"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
