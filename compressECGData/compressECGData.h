@@ -15,4 +15,6 @@
 int compressFile4bit(const char* readFilePath,const char* writeFilePath);
 
 int decompressFile4bit(const char* readFilePath,const char* writeFilePath);
+
+//int compressFile8bit(const char* readFilePath,const char* writeFilePath);
 #endif /* compressECGData_h */
